@@ -3,6 +3,7 @@ import { Switch, Route } from 'react-router-dom'
 
 import Intro_101 from './Intro'
 import OneDisplay from './OneDisplay'
+import TwoDefaults from './TwoDefaults'
 
 class Routes extends Component {
   render () {
@@ -10,6 +11,7 @@ class Routes extends Component {
       <Switch>
         <Route exact path='/101/' component={Intro_101} />
         <Route path='/101/display' component={OneDisplay} />
+        <Route path='/101/display-defaults' component={TwoDefaults}/>
       </Switch>
     )
   }

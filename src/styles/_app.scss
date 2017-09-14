@@ -1,7 +1,7 @@
 .App {
   display: grid;
   grid-template-columns: 300px auto;
-  grid-template-rows: 10vh 90vh;
+  grid-template-rows: 10vh minmax(90vh, auto);
   grid-template-areas: 
       "header header"
       "sidebar content";
@@ -18,4 +18,9 @@
 
 .MainContent {
   grid-area: content;
+}
+
+.NextLessonNav {
+  display: flex;
+  justify-content: space-between;
 }

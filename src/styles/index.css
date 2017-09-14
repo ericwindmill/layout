@@ -4,14 +4,24 @@
 html, body {
   font-family: "Avenir", sanserif;
   font-size: 16px;
+  line-height: 2;
   margin: 0;
   padding: 0;
   background-color: aliceblue; }
 
+code {
+  background-color: gainsboro;
+  padding: 5px;
+  border-radius: 3px;
+  font-size: .8rem; }
+
+.Codepen--Styles {
+  margin: 50px auto; }
+
 .App {
   display: grid;
   grid-template-columns: 300px auto;
-  grid-template-rows: 10vh 90vh;
+  grid-template-rows: 10vh minmax(90vh, auto);
   grid-template-areas: "header header" "sidebar content"; }
 
 .Header {
@@ -24,8 +34,14 @@ html, body {
 .MainContent {
   grid-area: content; }
 
+.NextLessonNav {
+  display: flex;
+  justify-content: space-between; }
+
 .MainContent {
-  padding: 20px; }
+  padding: 30px;
+  max-width: 600px;
+  justify-self: center; }
 
 .MainContent h2 {
   text-align: center; }

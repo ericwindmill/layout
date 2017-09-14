@@ -6,6 +6,7 @@ html, body {
   // Text and Font
   font-family: $main-font;
   font-size: $font-size;
+  line-height: 2;
 
   // Sizing
   margin: 0;
@@ -13,4 +14,17 @@ html, body {
 
   // Colors 
   background-color: $app-background;
+}
+
+// Syntax and Codepens
+code {
+  background-color: $code-background;
+
+  padding: 5px;
+  border-radius: 3px;
+  font-size: .8rem;
+}
+
+.Codepen--Styles {
+    margin: 50px auto;
 }
