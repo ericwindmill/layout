@@ -1,0 +1,39 @@
+/***************
+** RESETS ******
+***************/
+html, body {
+  font-family: "Avenir", sanserif;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  background-color: aliceblue; }
+
+.App {
+  display: grid;
+  grid-template-columns: 300px auto;
+  grid-template-rows: 10vh 90vh;
+  grid-template-areas: "header header" "sidebar content"; }
+
+.Header {
+  grid-area: header; }
+
+.Sidebar {
+  grid-area: sidebar;
+  border-right: 1px solid darkslategrey; }
+
+.MainContent {
+  grid-area: content; }
+
+.MainContent {
+  padding: 20px; }
+
+.MainContent h2 {
+  text-align: center; }
+
+.Header {
+  padding-left: 50px;
+  color: black;
+  border-bottom: 1px solid black; }
+
+.Sidebar > ul {
+  list-style: none; }

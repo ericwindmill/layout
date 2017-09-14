@@ -1,0 +1,21 @@
+.App {
+  display: grid;
+  grid-template-columns: 300px auto;
+  grid-template-rows: 10vh 90vh;
+  grid-template-areas: 
+      "header header"
+      "sidebar content";
+}
+
+.Header {
+  grid-area: header;
+}
+
+.Sidebar {
+  grid-area: sidebar;
+  border-right: 1px solid darkslategrey;
+}
+
+.MainContent {
+  grid-area: content;
+}

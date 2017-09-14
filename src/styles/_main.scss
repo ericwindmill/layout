@@ -1,0 +1,16 @@
+/***************
+** RESETS ******
+***************/
+
+html, body {
+  // Text and Font
+  font-family: $main-font;
+  font-size: $font-size;
+
+  // Sizing
+  margin: 0;
+  padding: 0;
+
+  // Colors 
+  background-color: $app-background;
+}
