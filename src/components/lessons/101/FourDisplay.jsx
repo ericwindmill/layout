@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import Codepen from 'react-codepen'
 import NextLessonNav from '../../NextLessonNav'
 
-class OneDisplay extends Component {
+class FourDisplay extends Component {
   render () {  
     return(
       <div>
@@ -25,15 +25,28 @@ class OneDisplay extends Component {
             tab='result'
           ></Codepen>
         </div>
+        <h3>More Resources</h3>
+        <ul>
+          <li> 
+            All HTML elements have default <code>display</code> values.  
+            <a href='https://www.w3schools.com/cssref/css_default_values.asp' alt='MDN Display Page'>Here's an exhausive list.</a> 
+          </li>
+          <li>
+            There are many edge-case values that display takes, but they're hardly used (except the ones mentioned later in this guide). 
+            <a href='https://developer.mozilla.org/en-US/docs/Web/CSS/display' alt='MDN Display Page'>Here's an exhaustive list.</a>
+          </li>
+        </ul>
+        
+          
         <NextLessonNav
-          prev_path='/101/'
-          prev_name='101: Layout Foundation'
-          next_name='HTML Display Defaults'
-          next_path='/101/display-defaults'
+          prev_path='/101/box-sizing'
+          prev_name='Box Sizing: Border Box'
+          next_name='Margin: Auto'
+          next_path='/101/margin-auto'
         />
       </div>
     )
   }
 } 
 
-export default OneDisplay
+export default FourDisplay

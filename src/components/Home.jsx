@@ -13,7 +13,7 @@ class Home extends Component {
       <div>
         <h2> {this.state.title} </h2>
         <p> This is a comprehensive guide to building web layouts with CSS. </p>
-        <p> If you're new to CSS, getting started can be overwhelming. I created this page because the best thing I ever did was start at the beginning. </p>
+        <p> If you're new to CSS, getting started can be overwhelming. I created this page because the best thing I ever did was get back to the basics and actually learn the foundation. </p>
         <p> This guide will cover every bit of CSS Layout from the basics (and beginnings) to today's best tools.</p>
         <dl>
           <dt>101: The Foundation</dt>

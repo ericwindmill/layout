@@ -6,7 +6,10 @@ class Intro extends Component {
     return(
       <div>
         <h2> 101: Layout Foundation </h2>
-        <p> In the first lessons we'll explore the properties you need to know regardless of which layout tool you decided to use. </p>
+        <p>
+          This is very basic CSS, and should shouldn't hesitate to skip if none of the lessons look new to you. They keep it pretty basic for <em>brand new</em> CSS developers. The meat of this tutorial is learning Flex and Grid.
+        </p>
+
         <ul>
           <li>Display</li>
           <li>Sizing: Width and Height</li>
@@ -17,8 +20,8 @@ class Intro extends Component {
         <NextLessonNav
           prev_path='/'
           prev_name='Home'
-          next_path='/101/display'
-          next_name='The Display Property'
+          next_path='/101/box-model'
+          next_name='The CSS Box-Model'
         />
       </div>
     )

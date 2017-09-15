@@ -6,7 +6,7 @@ html, body {
   // Text and Font
   font-family: $main-font;
   font-size: $font-size;
-  line-height: 2;
+  line-height: 1.5;
 
   // Sizing
   margin: 0;
@@ -16,13 +16,20 @@ html, body {
   background-color: $app-background;
 }
 
+p, h1, h2, h3, h4, h5, h6, a {
+  line-height: 2;
+}
+
 // Syntax and Codepens
 code {
-  background-color: $code-background;
-
+  background: $code-background;
   padding: 5px;
   border-radius: 3px;
   font-size: .8rem;
+}
+
+pre > code {
+  background: inherit;
 }
 
 .Codepen--Styles {
