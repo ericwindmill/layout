@@ -57,8 +57,5 @@ pre > code {
   color: black;
   border-bottom: 1px solid black; }
 
-.Sidebar {
-  overflow: scroll; }
-
 .Sidebar > ul {
   list-style: none; }

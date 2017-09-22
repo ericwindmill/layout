@@ -49,18 +49,7 @@ class Sidebar extends Component {
                 <li><Link to='/301/flex-wrap'>Flex-Wrap</Link></li>
                 <li><Link to='/301/flex-flow'>Flex-Flow</Link></li>
                 <li><Link to='/301/flex-terms'>Aside: Flex Terminology</Link></li>
-                <li><Link to='/301/justify-content'>Justify-Content</Link></li>
-                <li><Link to='/301/align-items'>Align-Items</Link></li>
-                <li><Link to='/301/align-baseline'>Align-Items: Baseline</Link></li>
-                <li><Link to='/301/align-content'>Align-Content</Link></li>
-                <li><Link to='/301/align-self'>Align-Self</Link></li>
-                <li><Link to='/301/flex-order'>Flex Order</Link></li>
-                <li><Link to='/301/flex'>Flex Property</Link></li>
-                <li><Link to='/301/flex-basis'>Flex-Basis</Link></li>
-                <li><Link to='/301/flex-frow'>Flex-Grow</Link></li>
-                <li><Link to='/301/flex-shrink'>Flex-Shrink</Link></li>
-                <li><Link to='/301/flex-shorthand'>Flex Shorthand</Link></li>
-                <li><Link to='/301/flex-basis-wrap'>Flex-Basis w/ Wrap</Link></li>
+
               </ul>
             </li>
         </ul>
