@@ -6,7 +6,7 @@ class Header extends Component {
     return(
       <div className='Header'>
         <Link className='Header--PageTitle' to='/'>
-          <h1>CSS Layout</h1>
+          <h1>CSS Layout By Example</h1>
         </Link>
       </div>
     )

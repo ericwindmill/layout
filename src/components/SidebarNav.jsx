@@ -19,14 +19,34 @@ class Sidebar extends Component {
               </ul>
             </li>
             <li>
-              <li><Link to='/102'>102: Position</Link></li>    
+              <li><Link to='/102'>102: Position</Link></li>
               <ul>
-                <li><Link to='/102/absolute-or-fixed'>Position: Absolute v Fixed</Link></li>
+                <li><Link to='/102/document-flow'>Document Flow</Link></li>
                 <li><Link to='/102/position-sticky'>Position: Sticky</Link></li>
               </ul>
             </li>
+            <li>
+              <li><Link to='/201'>201: Floats</Link></li>
+              <ul>
+                <li><Link to='/201/float'>The Float Property</Link></li>
+                <li><Link to='/201/clear'>The Clear Property</Link></li>
+                <li><Link to='/201/clearfix'>The Clearfix Hack</Link></li>
+              </ul>
+            </li>
+            <li>
+              <li><Link to='/202'>201: Tables</Link></li>
+              <ul>
+                <li><Link to='/202/html-table'>HTML Tables</Link></li>
+                <li><Link to='/202/css-table'>CSS Table Properties</Link></li>
+                <li><Link to='/202/table-uses'>Table Use Cases</Link></li>
+              </ul>
+            </li>
+            <li>
+              <li><Link to='/301'>Flexbox</Link></li>
+              <ul>
 
-
+              </ul>
+            </li>
         </ul>
       </div>
     )

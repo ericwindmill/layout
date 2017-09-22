@@ -15,15 +15,6 @@ class LessonTitle extends Component {
     return(
       <div>
         <h2> Title </h2>
-
-
-
-        <NextLessonNav
-            prev_path='101'
-            prev_name='Dummy'
-            next_name='Dummy'
-            next_path='101'
-          />
       </div>
     )
   }

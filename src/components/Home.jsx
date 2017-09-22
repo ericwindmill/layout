@@ -5,7 +5,7 @@ class Home extends Component {
   constructor(props) {
     super(props)
     this.state = {
-      title: 'CSS Layout: Zero to One'
+      title: 'CSS Layout By Example'
     }
   }
   render () {
