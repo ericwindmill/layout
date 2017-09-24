@@ -42,7 +42,7 @@ class Sidebar extends Component {
               </ul>
             </li> */}
             <li>
-              <li><Link to='/301'>Flexbox</Link></li>
+              <li><Link to='/301'>301: Flexbox</Link></li>
               <ul>
                 <li><Link to='/301/display-flex'>Flex (& Inline-Flex)</Link></li>
                 <li><Link to='/301/flex-direction'>Flex-Dierction</Link></li>
@@ -57,10 +57,18 @@ class Sidebar extends Component {
                 <li><Link to='/301/flex-order'>Flex Order</Link></li>
                 <li><Link to='/301/flex'>Flex Property</Link></li>
                 <li><Link to='/301/flex-basis'>Flex-Basis</Link></li>
-                <li><Link to='/301/flex-frow'>Flex-Grow</Link></li>
+                <li><Link to='/301/flex-grow'>Flex-Grow</Link></li>
                 <li><Link to='/301/flex-shrink'>Flex-Shrink</Link></li>
                 <li><Link to='/301/flex-shorthand'>Flex Shorthand</Link></li>
                 <li><Link to='/301/flex-basis-wrap'>Flex-Basis w/ Wrap</Link></li>
+              </ul>
+            </li>
+            <li>
+              <li><Link to='/302'>302: Grid</Link></li>
+              <ul>
+                <li><Link to='/302/grid-terms'>Grid Terminology</Link></li>
+                <li><Link to='/302/define-grid'>Define a Grid</Link></li>
+
               </ul>
             </li>
         </ul>
