@@ -38,7 +38,7 @@ class LessonTitle extends Component {
             hash='QqGmRe'
             user='ericwindmill'
             tab='result'
-            height='500'
+            height='200'
           />
         <NextLessonNav
             prev_path='/301/flex-basis-wrap'

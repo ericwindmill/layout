@@ -14,16 +14,16 @@ import NineGridTemplateAreas from './NineGridTemplateAreas'
 import TenPlacingItems from './TenPlacingItems'
 import ElevenGridRowAndColumn from './ElevenGridRowAndColumn'
 import TwelveSpan from './TwelveSpan'
-import ThirteenNamedLines from 'ThirteenNamedLines'
-import FourteenGridArea from 'FourteenGridArea'
-import SixteenGridAutoPlacement from 'SixteenGridAutoPlacement'
-import SeventeenGridAutoFlow from 'SeventeenGridAutoFlow'
-import EighteenLayering from 'EighteenLayering'
-import NineteenGridOrder from 'NineteenGridOrder'
-import TwentyJustifyItems from 'TwentyJustifyItems'
-import TwentyOneAlignItems from 'TwentyoneJustifyItems'
-import TwentyTwoJustifyAndAlignContent from 'TwentyTwoJustifyAndAlignContent'
-import TwentyThreeJustifyAndAlignSelf from 'TwentyThreeJustifyAndAlignSelft'
+import ThirteenNamedLines from './ThirteenNamedLines'
+import FourteenGridArea from './FourteenGridArea'
+import SixteenGridAutoPlacement from './SixteenGridAutoPlacement'
+import SeventeenGridAutoFlow from './SeventeenGridAutoFlow'
+import EighteenLayering from './EighteenLayering'
+import NineteenGridOrder from './NineteenGridOrder'
+import TwentyJustifyItems from './TwentyJustifyItems'
+import TwentyOneAlignItems from './TwentyOneAlignItems'
+import TwentyTwoJustifyAndAlignContent from './TwentyTwoJustifyAndAlignContent'
+import TwentyThreeJustifyAndAlignSelf from './TwentyThreeJustifyAndAlignSelf'
 
 
 
@@ -33,7 +33,7 @@ class Routes extends Component {
       <Switch>
         <Route exact path='/302/' component={Intro_302} />
         <Route exact path='/302/grid-terms' component={OneGridTerms} />
-        <Route exact path='/302/define-grid' component={ThreeFRUnit} />
+        <Route exact path='/302/define-grid' component={TwoDefineAGrid} />
         <Route exact path='/302/fr-unit' component={ThreeFRUnit} />
         <Route exact path='/302/grid-auto-col-and-row' component={FourGridAutoColAndRow} />
         <Route exact path='/302/grid-gap' component={FiveGridGap} />
