@@ -48,10 +48,10 @@ class LessonTitle extends Component {
 
 
         <NextLessonNav
-            prev_path='101'
-            prev_name='Dummy'
-            next_name='Dummy'
-            next_path='101'
+            prev_path='/302/grid-gap'
+            prev_name='Add Gutters to Your Grid with Grid Gap'
+            next_name='Define Grid Item Size Mins and Maxes with minmax()'
+            next_path='/302/minmax'
           />
       </div>
     )
