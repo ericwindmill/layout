@@ -61,7 +61,7 @@ class LessonTitle extends Component {
             prev_path='/302/grid-auto-placement'
             prev_name='Aside: Understanding the Grid Auto Placement Algorithm'
             next_name='Layering Items with Z-Index'
-            next_path='/302/z-index'
+            next_path='/302/layering'
           />
       </div>
     )

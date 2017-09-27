@@ -9,14 +9,21 @@ class LessonTitle extends Component {
     return(
       <div>
         <h2> Title </h2>
-
-
+        <p>
+          When explicitly placeing grid items, you can place multiple items in the same cells, and then use <code>z-index</code> to layer them. In this example, I've placed 'two' ontop of one, and four behind one. <code>z-index</code> works exactly the way it does with all other tooling systems (most often positioning).
+        </p>
+        <Codepen
+            hash='vexOgw'
+            user='ericwindmill'
+            tab='result'
+            height='500'
+          />
 
         <NextLessonNav
-            prev_path='101'
-            prev_name='Dummy'
-            next_name='Dummy'
-            next_path='101'
+            prev_path='/302/grid-auto-flow'
+            prev_name='Controlling Grid Placement with Grid-Auto-Flow'
+            next_name='Ordering Items with Order'
+            next_path='/302/order'
           />
       </div>
     )
