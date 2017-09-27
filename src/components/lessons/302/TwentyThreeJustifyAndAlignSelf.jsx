@@ -19,7 +19,7 @@ class LessonTitle extends Component {
             hash='MEpaLd'
             user='ericwindmill'
             tab='result'
-            height='500'
+            height='600'
           />
         <p>
           <code>Align-self</code> works exactly the same way, but along the column-axis.
