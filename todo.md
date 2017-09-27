@@ -20,15 +20,25 @@ TOC
     🌶* float property
     🌶* clear property
     🌶* clear fix
-  * 202: Tables
-    * display: table cell
-    * display: table for container
 
-* 300
-  * Flex
-    * One for each pen!
-  * Grid
-    * One for each pen!
+* 🌶300
+  * 🌶Flex
+    * 🌶One for each pen!
+  * 🌶Grid
+    * 🌶One for each pen!
 
 * 400
+  * Practical Examples
+
+
+* Implement Info Pages:
+  * Resrouces
+  * Home --> Forreal
+
+* Add Links
+  * Twitter
+  * Back to EW
+  * Github
+
+* Style
 

@@ -28,7 +28,7 @@ class LessonTitle extends Component {
             prev_path='/302/justify-align-content'
             prev_name='Align the Entire Grid with Justify- and Align-Content'
             next_name='More Resources and Next Steps'
-            next_path='/more-resources'
+            next_path='/resources'
           />
       </div>
     )

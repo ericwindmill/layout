@@ -1,0 +1,15 @@
+.TopNav {
+  display: flex;
+  justify-content: space-between;
+  background: gainsboro;
+
+  ul {
+    list-style: none;
+    display: flex;
+  }
+  li {
+    padding-right: 50px;
+    margin: 0;
+
+  }
+}

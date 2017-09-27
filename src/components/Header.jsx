@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
+import TopNav from './TopNav'
 
 class Header extends Component {
   render() {
@@ -8,6 +9,7 @@ class Header extends Component {
         <Link className='Header--PageTitle' to='/'>
           <h1>CSS Layout By Example</h1>
         </Link>
+        <TopNav />
       </div>
     )
   }

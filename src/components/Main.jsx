@@ -8,6 +8,7 @@ import Routes_201 from './lessons/201/Routes'
 import Routes_202 from './lessons/202/Routes'
 import Routes_301 from './lessons/301/Routes'
 import Routes_302 from './lessons/302/Routes'
+import Resources from './Resources'
 
 class Main extends Component {
   render () {
@@ -20,6 +21,7 @@ class Main extends Component {
           <Route path='/201' component={Routes_201} />
           <Route path='/301' component={Routes_301} />
           <Route path='/302' component={Routes_302} />
+          <Route path='/resources' component={Resources} />
         </Switch>
       </main>
     )

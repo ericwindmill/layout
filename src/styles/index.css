@@ -12,6 +12,13 @@ html, body {
 p, h1, h2, h3, h4, h5, h6, a {
   line-height: 2; }
 
+a {
+  text-decoration: none;
+  color: darkblue; }
+
+a:visited {
+  color: darkblue; }
+
 code {
   background: gainsboro;
   padding: 5px;
@@ -26,8 +33,8 @@ pre > code {
 
 .App {
   display: grid;
-  grid-template-columns: 300px auto;
-  grid-template-rows: 10vh minmax(90vh, auto);
+  grid-template-columns: 300px 1fr;
+  grid-template-rows: minmax(10vh, 1fr) minmax(90vh, auto);
   grid-template-areas: "header header" "sidebar content"; }
 
 .Header {
@@ -53,9 +60,23 @@ pre > code {
   text-align: center; }
 
 .Header {
-  padding-left: 50px;
+  padding-top: 50px;
   color: black;
   border-bottom: 1px solid black; }
+  .Header h1 {
+    padding-left: 50px;
+    margin: 0; }
 
 .Sidebar > ul {
   list-style: none; }
+
+.TopNav {
+  display: flex;
+  justify-content: space-between;
+  background: gainsboro; }
+  .TopNav ul {
+    list-style: none;
+    display: flex; }
+  .TopNav li {
+    padding-right: 50px;
+    margin: 0; }
