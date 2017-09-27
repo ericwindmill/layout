@@ -29,7 +29,7 @@ class LessonTitle extends Component {
             hash='gGmbQE'
             user='ericwindmill'
             tab='result'
-            height='500'
+            height='750'
           />
           <p>
             In the example above we have a four by four grid, with elements that have varying sizes. By default, the <code>grid-auto-flow</code> is set to <code>row</code>. Here's how the algorithm decides where each element lives:
@@ -53,7 +53,7 @@ class LessonTitle extends Component {
             hash='rGyVMY'
             user='ericwindmill'
             tab='result'
-            height='500'
+            height='800'
           />
 
 
