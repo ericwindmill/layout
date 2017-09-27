@@ -23,7 +23,7 @@ class LessonTitle extends Component {
             prev_path='/302/grid-auto-flow'
             prev_name='Controlling Grid Placement with Grid-Auto-Flow'
             next_name='Ordering Items with Order'
-            next_path='/302/order'
+            next_path='/302/grid-order'
           />
       </div>
     )
