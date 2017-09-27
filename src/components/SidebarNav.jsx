@@ -80,6 +80,14 @@ class Sidebar extends Component {
                 <li><Link to='/302/span'>The Span Keyword</Link></li>
                 <li><Link to='/302/named-lines'>Named Grid Lines</Link></li>
                 <li><Link to='/302/grid-area'>Grid-Area</Link></li>
+                <li><Link to='/302/grid-auto-placement'>Grid Auto Placement</Link></li>
+                <li><Link to='/302/grid-auto-flow'>Grid-Auto-Flow</Link></li>
+                <li><Link to='/302/layering'>Layering with Z-Index</Link></li>
+                <li><Link to='/302/grid-order'>Grid Order</Link></li>
+                <li><Link to='/302/justify-items'>Justify Items</Link></li>
+                <li><Link to='/302/align-items'>Align Items</Link></li>
+                <li><Link to='/302/justify-align-content'>Justify- and Align-Content</Link></li>
+                <li><Link to='/302/justify-align-self'>Justify- and Align-Self</Link></li>
 
               </ul>
             </li>
