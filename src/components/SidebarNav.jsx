@@ -68,6 +68,18 @@ class Sidebar extends Component {
               <ul>
                 <li><Link to='/302/grid-terms'>Grid Terminology</Link></li>
                 <li><Link to='/302/define-grid'>Define a Grid</Link></li>
+                <li><Link to='/302/fr-unit'>The FR Unit</Link></li>
+                <li><Link to='/302/grid-auto-col-and-row'>Grid-Auto-Column (and Row)</Link></li>
+                <li><Link to='/302/grid-gap'>Grid Gap</Link></li>
+                <li><Link to='/302/repeat'>Repat( )</Link></li>
+                <li><Link to='/302/minmax'>Minmax( )</Link></li>
+                <li><Link to='/302/autofill-autofit'>Autofill & Autofit</Link></li>
+                <li><Link to='/302/grid-template-areas'>Grid-Template-Areas</Link></li>
+                <li><Link to='/302/placing-grid-items'>Placing Grid Items</Link></li>
+                <li><Link to='/302/grid-row-and-column'>Grid-Row and Grid-Column</Link></li>
+                <li><Link to='/302/span'>The Span Keyword</Link></li>
+                <li><Link to='/302/named-lines'>Named Grid Lines</Link></li>
+                <li><Link to='/302/grid-area'>Grid-Area</Link></li>
 
               </ul>
             </li>

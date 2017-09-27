@@ -40,10 +40,10 @@ class LessonTitle extends Component {
 
 
         <NextLessonNav
-            prev_path='101'
-            prev_name='Dummy'
-            next_name='Dummy'
-            next_path='101'
+            prev_path='/302/repeat'
+            prev_name='Define Column Patterns with Repeat'
+            next_name='Flexible Grid Items with Autofill and Autofit'
+            next_path='/302/autofill-autofit'
           />
       </div>
     )
