@@ -41,8 +41,8 @@ class LessonTitle extends Component {
         <NextLessonNav
             prev_path='/302/grid-area'
             prev_name='Grid Placement Shorthand with Grid-Area'
-            next_name='Layering Grid Items with Z-Index'
-            next_path='/302/layering'
+            next_name='Control the Auto Placment with Grid-Auto-Flow'
+            next_path='/302/grid-auto-flow'
           />
       </div>
     )
