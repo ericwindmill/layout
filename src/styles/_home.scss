@@ -1,0 +1,53 @@
+.Home {
+  h1 {
+    text-align: center;
+    font-size: 3em;
+  }
+
+  h2 {
+    padding-bottom: $spacing-unit;
+    border-bottom: 1px solid lightslategray;
+  }
+
+  .Hero {
+    margin-bottom: 100px;
+
+    p {
+      margin: 50px 0;
+    }
+  }
+
+}
+
+.table-of-contents {
+  disaply: flex;
+  flex-flow: center;
+
+
+  .contents-section > h2 {
+    text-align: left;
+    padding-bottom: 10px;
+    border-bottom: 1px solid lightslategrey;
+    counter-reset: section;
+  }
+  .contents-section > ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: space-between;
+    margin-bottom: $spacing-unit * 2;
+
+    li::before {
+      counter-increment: section;
+      content: counters(section, '.') '. ';
+    }
+
+    //styles
+    list-style: none;
+  }
+}
+
+.one-oh-one {
+
+
+
+}

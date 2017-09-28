@@ -35,10 +35,12 @@ TOC
   * Resrouces
   * Home --> Forreal
 
-* Add Links
+* 🌶Add Links
   * Twitter
   * Back to EW
   * Github
 
-* Style
+* 🌶Style
+
+* Deploy
 

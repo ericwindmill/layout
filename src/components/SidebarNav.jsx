@@ -12,7 +12,7 @@ class Sidebar extends Component {
   }
 
   async handleClick(e) {
-    var index, updatedList;
+    var index;
     while (!e.target.id) {
       e.target = e.target.parentNode
     }
