@@ -1,6 +1,5 @@
 .App {
   background: url('http://res.cloudinary.com/ericwindmill/image/upload/v1502572251/portfolio_site/background_august.png');
-  background-color: whitesmoke;
   display: grid;
   grid-template-columns: 300px 1fr;
   grid-template-rows: minmax(15vh, 1fr) minmax(85vh, auto);
@@ -21,6 +20,10 @@
 .MainContent {
   grid-area: content;
 
+}
+
+.Footer {
+  grid-area: footer;
 }
 
 .NextLessonNav {

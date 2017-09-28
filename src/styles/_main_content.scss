@@ -1,7 +1,8 @@
 .MainContent {
   // positioning and size
   padding: 30px;
-  margin: 10px 60px;
+  margin: 20px 60px 30px;
+
   min-width: 600px;
   max-width: 900px;
   justify-self: center;
@@ -9,7 +10,7 @@
   // viz styles
   background: aliceblue;
   border-radius: 5px;
-box-shadow: 2px 5px 10px grey;
+  box-shadow: 2px 5px 10px grey;
 }
 
 .MainContent h2 {

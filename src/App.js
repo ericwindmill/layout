@@ -3,6 +3,7 @@ import React, { Component } from 'react'
 import Main from './components/Main'
 import Sidebar from './components/SidebarNav'
 import Header from './components/Header'
+import Footer from './components/Footer'
 
 
 
@@ -13,6 +14,7 @@ class App extends Component {
           <Header />
           <Sidebar />
           <Main  />
+          <Footer />
         </main>
     )
   }

@@ -38,7 +38,6 @@ pre > code {
 
 .App {
   background: url("http://res.cloudinary.com/ericwindmill/image/upload/v1502572251/portfolio_site/background_august.png");
-  background-color: whitesmoke;
   display: grid;
   grid-template-columns: 300px 1fr;
   grid-template-rows: minmax(15vh, 1fr) minmax(85vh, auto);
@@ -53,6 +52,9 @@ pre > code {
 .MainContent {
   grid-area: content; }
 
+.Footer {
+  grid-area: footer; }
+
 .NextLessonNav {
   margin-top: 50px;
   display: flex;
@@ -61,7 +63,7 @@ pre > code {
 
 .MainContent {
   padding: 30px;
-  margin: 10px 60px;
+  margin: 20px 60px 30px;
   min-width: 600px;
   max-width: 900px;
   justify-self: center;
@@ -79,11 +81,29 @@ pre > code {
     padding-left: 50px;
     margin: 0; }
 
-.Sidebar > ul {
-  list-style: none; }
+.Footer {
+  background: lightslategray;
+  text-align: center;
+  font-size: .9em; }
+  .Footer > ul {
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+    margin: 0 auto 50px;
+    list-style: none;
+    padding: 0; }
+  .Footer p {
+    margin-top: 0;
+    line-height: 1.5; }
+    .Footer p:first-child {
+      margin-top: 50px; }
+    .Footer p:nth-child(2) {
+      font-style: italic; }
 
-.Sidebar :nth-child(1) {
+.Sidebar {
   margin-top: 10px; }
+  .Sidebar > ul {
+    list-style: none; }
 
 .sublist-label {
   display: flex;
