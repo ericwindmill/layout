@@ -1,8 +1,11 @@
 
 .Sidebar {
-
   & > ul {
   list-style: none;
+  }
+
+  :nth-child(1) {
+    margin-top: 10px;
   }
 }
 
@@ -10,9 +13,16 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border: 1px solid black;
+  cursor: pointer;
+  background: aliceblue;
+  margin: 10px 0;
+  border-radius: 5px;
+  padding: 5px;
+  box-shadow: 2px 5px 10px grey;
 
   > p {
-    margin: 0;
+    font-size: 1.2em;
+    margin: 10px 0;
+    font-weight: 500;
   }
 }

@@ -18,11 +18,10 @@ class Sidebar extends Component {
     }
 
     if (!this.state.list.includes(e.target.id)) {
-      console.log('if')
       await this.setState({list : this.state.list.concat(e.target.id)})
     } else {
       index = this.state.list.indexOf(e.target.id);
-      updatedList = this.state.list.splice(index, 1);
+      this.state.list.splice(index, 1);
       await this.setState({list: this.state.list})
     }
   }
@@ -31,7 +30,12 @@ class Sidebar extends Component {
     return(
       <div className='Sidebar'>
         <ul className='Sidebar--List'>
-            <p onClick={this.handleClick} className='sublist-label'><Link to='/'>Start Here</Link></p>
+            <div
+              className='sublist-label'>
+              <p>
+                <Link to='/'>Start Here</Link>
+              </p>
+            </div>
             <li>
               <div
                 onClick={this.handleClick}
