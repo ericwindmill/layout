@@ -1,15 +1,26 @@
 .TopNav {
   display: flex;
   justify-content: space-between;
-  background: gainsboro;
+  background: dodgerblue;
 
   ul {
     list-style: none;
     display: flex;
+    padding-left: 50px;
   }
   li {
     padding-right: 50px;
-    margin: 0;
 
+  }
+}
+
+.Twitter-Icon {
+  color: #black;
+  height: 45px;
+  width: 45px;
+  transition: color 0.2s ease;
+
+  &:hover {
+    color: lighten(black, 20%);
   }
 }

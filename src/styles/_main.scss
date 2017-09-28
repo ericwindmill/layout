@@ -23,6 +23,15 @@ p, h1, h2, h3, h4, h5, h6, a {
 a {
   text-decoration: none;
   color: $link-color;
+  font-weight: 500;
+
+  &:visited {
+    color: $link-color;
+  }
+
+  &:hover {
+    color: fade-out($link-color, .5);
+  }
 }
 
 a:visited {

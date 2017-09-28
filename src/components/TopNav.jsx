@@ -1,6 +1,9 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 
+import {TiSocialTwitter} from 'react-icons/lib/ti';
+
+
 class TopNav extends Component {
   render() {
     return(
@@ -10,8 +13,9 @@ class TopNav extends Component {
           <li><Link to='/resources'>Resources</Link></li>
         </ul>
         <ul>
-          <li><a href='https://twitter.com/ericwindmill'>Twitter</a></li>
-          <li><a href='https://github.com/ericwindmill'>Github</a></li>
+          <li><a href='https://twitter.com/ericwindmill'>
+          <TiSocialTwitter className='Twitter-Icon'/>
+          </a></li>
         </ul>
       </div>
     )

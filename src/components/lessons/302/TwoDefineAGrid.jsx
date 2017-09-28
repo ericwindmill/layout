@@ -28,7 +28,7 @@ class TwoDefineGrid extends Component {
             In this example, I defined 3 columns that are 100px each. The values represent a column track width. The space inbetween (and around) each value represents a grid line. (And the same goes for rows). With this grid definition, you'll end up with a grid that has 4 vertical lines and 3 horizontal lines.
           </p>
 
-          <img src='http://res.cloudinary.com/ericwindmill/image/upload/c_scale,w_600/v1506284099/css-layout/Define_a_Grid.png' />
+          <img src='http://res.cloudinary.com/ericwindmill/image/upload/c_scale,w_600/v1506284099/css-layout/Define_a_Grid.png' alt='defining a grid'/>
           <p>
             <code>grid-template-columns</code> and <code>grid-template-rows</code> take any units that any size property in CSS could take.
           </p>

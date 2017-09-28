@@ -14,10 +14,15 @@ p, h1, h2, h3, h4, h5, h6, a {
 
 a {
   text-decoration: none;
-  color: darkblue; }
+  color: black;
+  font-weight: 500; }
+  a:visited {
+    color: black; }
+  a:hover {
+    color: rgba(0, 0, 0, 0.5); }
 
 a:visited {
-  color: darkblue; }
+  color: black; }
 
 code {
   background: gainsboro;
@@ -34,8 +39,8 @@ pre > code {
 .App {
   display: grid;
   grid-template-columns: 300px 1fr;
-  grid-template-rows: minmax(10vh, 1fr) minmax(90vh, auto);
-  grid-template-areas: "header header" "sidebar content"; }
+  grid-template-rows: minmax(15vh, 1fr) minmax(85vh, auto);
+  grid-template-areas: "header header" "sidebar content" "footer footer"; }
 
 .Header {
   grid-area: header; }
@@ -48,8 +53,10 @@ pre > code {
   grid-area: content; }
 
 .NextLessonNav {
+  margin-top: 50px;
   display: flex;
-  justify-content: space-between; }
+  flex-flow: column;
+  align-items: center; }
 
 .MainContent {
   padding: 30px;
@@ -73,10 +80,18 @@ pre > code {
 .TopNav {
   display: flex;
   justify-content: space-between;
-  background: gainsboro; }
+  background: dodgerblue; }
   .TopNav ul {
     list-style: none;
-    display: flex; }
+    display: flex;
+    padding-left: 50px; }
   .TopNav li {
-    padding-right: 50px;
-    margin: 0; }
+    padding-right: 50px; }
+
+.Twitter-Icon {
+  color: #black;
+  height: 45px;
+  width: 45px;
+  transition: color 0.2s ease; }
+  .Twitter-Icon:hover {
+    color: #333333; }

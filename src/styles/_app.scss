@@ -1,10 +1,11 @@
 .App {
   display: grid;
   grid-template-columns: 300px 1fr;
-  grid-template-rows: minmax(10vh, 1fr) minmax(90vh, auto);
+  grid-template-rows: minmax(15vh, 1fr) minmax(85vh, auto);
   grid-template-areas:
       "header header"
-      "sidebar content";
+      "sidebar content"
+      "footer footer";
 }
 
 .Header {
@@ -18,9 +19,12 @@
 
 .MainContent {
   grid-area: content;
+
 }
 
 .NextLessonNav {
+  margin-top: 50px;
   display: flex;
-  justify-content: space-between;
+  flex-flow: column;
+  align-items: center;
 }
