@@ -37,6 +37,8 @@ pre > code {
   margin: 50px auto; }
 
 .App {
+  background: url("http://res.cloudinary.com/ericwindmill/image/upload/v1502572251/portfolio_site/background_august.png");
+  background-color: gainsboro;
   display: grid;
   grid-template-columns: 300px 1fr;
   grid-template-rows: minmax(15vh, 1fr) minmax(85vh, auto);
@@ -46,8 +48,7 @@ pre > code {
   grid-area: header; }
 
 .Sidebar {
-  grid-area: sidebar;
-  border-right: 1px solid darkslategrey; }
+  grid-area: sidebar; }
 
 .MainContent {
   grid-area: content; }
@@ -60,16 +61,19 @@ pre > code {
 
 .MainContent {
   padding: 30px;
+  margin: 10px 50px;
   max-width: 700px;
-  justify-self: center; }
+  justify-self: center;
+  background: aliceblue;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px #494949; }
 
 .MainContent h2 {
   text-align: center; }
 
 .Header {
   padding-top: 50px;
-  color: black;
-  border-bottom: 1px solid black; }
+  color: black; }
   .Header h1 {
     padding-left: 50px;
     margin: 0; }
@@ -77,19 +81,29 @@ pre > code {
 .Sidebar > ul {
   list-style: none; }
 
+.sublist-label {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid black; }
+  .sublist-label > p {
+    margin: 0; }
+
 .TopNav {
   display: flex;
   justify-content: space-between;
   background: dodgerblue; }
   .TopNav ul {
-    list-style: none;
     display: flex;
-    padding-left: 50px; }
+    padding-left: 50px;
+    align-items: center;
+    list-style: none;
+    font-size: 1.2em; }
   .TopNav li {
     padding-right: 50px; }
 
 .Twitter-Icon {
-  color: #black;
+  color: black;
   height: 45px;
   width: 45px;
   transition: color 0.2s ease; }

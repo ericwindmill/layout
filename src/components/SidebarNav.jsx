@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
+import {FaChevronDown} from 'react-icons/lib/fa'
 
 class Sidebar extends Component {
   constructor () {
@@ -10,13 +11,20 @@ class Sidebar extends Component {
     this.handleClick = this.handleClick.bind(this)
   }
 
-  handleClick(e) {
-    if (!this.state.list.includes(e.target.id)) {
-      this.setState({list : this.state.list.concat(e.target.id)})
-    } else {
-      this.setState({list: []})
+  async handleClick(e) {
+    var index, updatedList;
+    while (!e.target.id) {
+      e.target = e.target.parentNode
     }
-    console.log(this.state.list)
+
+    if (!this.state.list.includes(e.target.id)) {
+      console.log('if')
+      await this.setState({list : this.state.list.concat(e.target.id)})
+    } else {
+      index = this.state.list.indexOf(e.target.id);
+      updatedList = this.state.list.splice(index, 1);
+      await this.setState({list: this.state.list})
+    }
   }
 
   render() {
@@ -25,13 +33,13 @@ class Sidebar extends Component {
         <ul className='Sidebar--List'>
             <p onClick={this.handleClick} className='sublist-label'><Link to='/'>Start Here</Link></p>
             <li>
-              <p
+              <div
                 onClick={this.handleClick}
                 id='101'
-                className='sublist-label'
-                >101: Foundation
-              </p>
-
+                className='sublist-label'>
+                  <p>101: Foundation</p>
+                  <FaChevronDown />
+              </div>
                 { this.state.list.includes('101')
                   ? <ul className='Sidebar--Sublist'>
                       <li><Link to='/101'>Foundation Intro</Link></li>
@@ -45,11 +53,13 @@ class Sidebar extends Component {
                 }
             </li>
             <li>
-              <p
+              <div
               onClick={this.handleClick}
               id='102'
-              className='sublist-label'
-              >102: Position</p>
+              className='sublist-label'>
+                <p>102: Position</p>
+                <FaChevronDown />
+              </div>
               { this.state.list.includes('102')
                 ? <ul className='Sidebar--Sublist'>
                   <li><Link to='/102'>Position Intro</Link></li>
@@ -60,11 +70,13 @@ class Sidebar extends Component {
               }
             </li>
             <li>
-            <p
+            <div
               className='sublist-label'
               onClick={this.handleClick}
-              id='201'
-              >201: Floats</p>
+              id='201'>
+                <p>201: Floats</p>
+                <FaChevronDown />
+            </div>
               { this.state.list.includes('201')
                 ? <ul className='Sidebar--Sublist'>
                   <li><Link to='/201'>Floats Intro</Link></li>
@@ -76,11 +88,14 @@ class Sidebar extends Component {
               }
             </li>
             <li>
-              <p
+              <div
                 className='sublist-label'
                 onClick={this.handleClick}
                 id='301'
-                >301: Flexbox</p>
+                >
+                <p>301: Flexbox</p>
+                <FaChevronDown />
+              </div>
                 { this.state.list.includes('301')
                   ? <ul className='Sidebar--Sublist'>
                     <li><Link to='/301'>Flexbox Intro</Link></li>
@@ -106,11 +121,13 @@ class Sidebar extends Component {
                 }
             </li>
             <li>
-              <p
+              <div
                 className='sublist-label'
                 onClick={this.handleClick}
-                id='302'
-              >302: Grid</p>
+                id='302'>
+                <p>302: Grid</p>
+                <FaChevronDown />
+              </div>
               { this.state.list.includes('302')
                 ? <ul className='Sidebar--Sublist'>
                   <li><Link to='/302'>Grid Intro</Link></li>

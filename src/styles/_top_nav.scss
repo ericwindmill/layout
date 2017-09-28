@@ -1,21 +1,26 @@
 .TopNav {
+  // layout
   display: flex;
   justify-content: space-between;
+  //color
   background: dodgerblue;
 
   ul {
-    list-style: none;
+    //layout
     display: flex;
     padding-left: 50px;
+    align-items: center;
+    //style
+    list-style: none;
+    font-size: 1.2em;
   }
   li {
     padding-right: 50px;
-
   }
 }
 
 .Twitter-Icon {
-  color: #black;
+  color: black;
   height: 45px;
   width: 45px;
   transition: color 0.2s ease;
