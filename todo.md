@@ -31,7 +31,7 @@ TOC
   * Practical Examples
 
 
-* Implement Info Pages:
+* 🌶Implement Info Pages:
   * Resrouces
   * Home --> Forreal
 

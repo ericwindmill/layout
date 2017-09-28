@@ -5,6 +5,14 @@
   //color
   background: dodgerblue;
 
+  a {
+    color: $nav-link-color;
+  }
+
+  a:hover {
+    color: lighten(black, 20%);
+  }
+
   ul {
     //layout
     display: flex;

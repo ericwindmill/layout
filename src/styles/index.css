@@ -14,15 +14,15 @@ p, h1, h2, h3, h4, h5, h6, a {
 
 a {
   text-decoration: none;
-  color: black;
+  color: dodgerblue;
   font-weight: 500; }
   a:visited {
-    color: black; }
+    color: dodgerblue; }
   a:hover {
-    color: rgba(0, 0, 0, 0.5); }
+    color: rgba(30, 144, 255, 0.5); }
 
 a:visited {
-  color: black; }
+  color: dodgerblue; }
 
 code {
   background: gainsboro;
@@ -110,12 +110,17 @@ pre > code {
   color: black; }
   .Header h1 {
     padding-left: 50px;
-    margin: 0; }
+    margin: 0;
+    color: black; }
 
 .Footer {
   background: lightslategray;
   text-align: center;
   font-size: .9em; }
+  .Footer a {
+    color: black; }
+  .Footer a:hover {
+    color: #333333; }
   .Footer > ul {
     display: flex;
     justify-content: space-around;
@@ -133,6 +138,8 @@ pre > code {
 
 .Sidebar {
   margin-top: 10px; }
+  .Sidebar a {
+    color: black; }
   .Sidebar > ul {
     list-style: none; }
 
@@ -146,6 +153,8 @@ pre > code {
   border-radius: 5px;
   padding: 5px;
   box-shadow: 2px 5px 10px grey; }
+  .sublist-label:hover {
+    background: dodgerblue; }
   .sublist-label > p {
     font-size: 1.2em;
     margin: 10px 0;
@@ -155,6 +164,10 @@ pre > code {
   display: flex;
   justify-content: space-between;
   background: dodgerblue; }
+  .TopNav a {
+    color: black; }
+  .TopNav a:hover {
+    color: #333333; }
   .TopNav ul {
     display: flex;
     padding-left: 50px;

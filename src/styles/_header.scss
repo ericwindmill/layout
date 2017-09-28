@@ -3,10 +3,11 @@
   padding-top: 50px;
 
   //styles
-  color: black;
+  color: $nav-link-color;
 
   h1 {
     padding-left: 50px;
     margin: 0;
+    color: $nav-link-color;
   }
 }

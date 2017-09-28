@@ -8,7 +8,6 @@ class Home extends Component {
         <div className='Hero'>
           <h1> A Modern CSS Layout Tutorial </h1>
           <h2> This is how beautiful web layouts are made.<br /> From the basics to the modern tools.</h2>
-          <p> This guide will cover every bit of CSS Layout from the basics (and beginnings) to today's best tools. The Guide is split into 5 parts, and each builds on the last.</p>
         </div>
         <main className='table-of-contents'>
           <section className='contents-section'>

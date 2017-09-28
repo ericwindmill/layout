@@ -1,6 +1,9 @@
 
 .Sidebar {
   margin-top: 10px;
+  a {
+    color: black;
+  }
 
   & > ul {
     list-style: none;
@@ -17,6 +20,10 @@
   border-radius: 5px;
   padding: 5px;
   box-shadow: 2px 5px 10px grey;
+
+    &:hover {
+      background: dodgerblue;
+    }
 
   > p {
     font-size: 1.2em;
